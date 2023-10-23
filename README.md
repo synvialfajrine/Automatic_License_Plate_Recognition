@@ -24,3 +24,4 @@ The resulted segmentation model achieves high accuracy in detecting license plat
 ## Reference
 1. computervisioneng. 2023. [https://github.com/computervisioneng/automatic-number-plate-recognition-python-yolov8.git](https://github.com/computervisioneng/automatic-number-plate-recognition-python-yolov8.git)
 2. Jocher, G., Chaurasia, A., & Qiu, J. (2023). YOLO by Ultralytics (Version 8.0.0) [Computer software]. https://github.com/ultralytics/ultralytics
+3. Faishal, M. 2023. [https://github.com/MuhammadMoinFaisal/Automatic_Number_Plate_Detection_Recognition_YOLOv8.git](https://github.com/MuhammadMoinFaisal/Automatic_Number_Plate_Detection_Recognition_YOLOv8.git)
