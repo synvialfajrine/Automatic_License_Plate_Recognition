@@ -32,10 +32,11 @@ The license plate recognition process involves several steps:
 
 ## YOLOv8 Performance
 YOLOv8 for License Plate Object Detection
-![image](https://github.com/synvialfajrine/Automatic_License_Plate_Recognition/assets/76579802/545c7d1e-add7-4cd7-9a2b-77fbeb0cc47a)
+![image](https://github.com/synvialfajrine/Automatic_License_Plate_Recognition/assets/76579802/8510cce9-e29f-440f-a3a7-773590c88ba1)
 The confusion matrix above shows that 98% of the license plates are correctly predicted and only 2% are incorrectly predicted as license plates.
 
-![image](https://github.com/synvialfajrine/Automatic_License_Plate_Recognition/assets/76579802/9a3a9934-8e2d-4f52-878d-e5fb440a93c1)
+![image](https://github.com/synvialfajrine/Automatic_License_Plate_Recognition/assets/76579802/0c92796e-d632-41d1-b48c-9217e6e8f2f7)
+
 
 ## Results
 First we apply the license plate number recognition to moving cars video and get rather satisfactory results where the system able to detect all the license plate of all moving car, but has incosistency in extracting the license plate numbers.
