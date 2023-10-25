@@ -3,17 +3,16 @@ Using YOLOv8 for vehicle license plate detection and easyOCR for reading the lic
 
 ## How to Run
 To run the code, simply open Google Colab or any Python Notebook-type editor and execute this following code:
- ``` from IPython.display import Image ```
-```try:```
-```  filename = take_photo()```
-```  print('Saved to {}'.format(filename))```
 
-```  # Show the image which was just taken.```
-```  display(Image(filename))```
-```except Exception as err:```
-```  # Errors will be thrown if the user does not have a webcam or if they do not```
-```  # grant the page permission to access it.```
-```  print(str(err)) ```
+```
+from IPython.display import Image
+try:
+  filename = take_photo()
+  print('Saved to {}'.format(filename))
+  display(Image(filename))
+except Exception as err:
+  print(str(err))
+```
 
 to capture image from webcam.
 Next, execute this code to automatically process your images and obtain the license plate number:
