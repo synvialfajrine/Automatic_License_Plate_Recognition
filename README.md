@@ -1,6 +1,24 @@
 # Automatic_License_Plate_Recognition
 Using YOLOv8 for vehicle license plate detection and easyOCR for reading the license plate number.
 
+## How to Run
+To run the code, simply open Google Colab or any Python Notebook-type editor and execute this following code:
+ ``` from IPython.display import Image
+try:
+  filename = take_photo()
+  print('Saved to {}'.format(filename))
+
+  # Show the image which was just taken.
+  display(Image(filename))
+except Exception as err:
+  # Errors will be thrown if the user does not have a webcam or if they do not
+  # grant the page permission to access it.
+  print(str(err)) ```
+
+to capture image from webcam.
+Next, execute this code to automatically process your images and obtain the license plate number:
+```license_plate_detector(filename) ```
+     
 ## Dataset
 The dataset for this project comprises 10,126 images sourced from Roboflow's [license plate recognition dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e). These images come in various sizes, but for consistency, they were resized to 640x640 pixels. It's worth noting that Roboflow already provides pre-resized datasets, eliminating the need for additional resizing. Additionally, the dataset includes annotations that support YOLOv8's input requirements.
 
